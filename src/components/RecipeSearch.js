@@ -11,6 +11,7 @@ export default class RecipeSearch extends Component {
                         <div className="col-10 mx-auto col-md-8 mt-5 text-center">
                             <h1 className="text-slanted text-capitalize">
                                 search for recipe with <strong className="text-danger">Food2Fork</strong>
+                                <h6 className="text-right text-slanted text-lowercase">~ mas ~</h6>
                             </h1>
                             <form className="mt-4" onSubmit={handleSubmit}>
                                 <label htmlFor="search" className="text-capitalize">type recipes (comma separated)</label>
